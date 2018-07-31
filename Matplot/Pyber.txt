@@ -1,0 +1,7 @@
+Three observable trends in Pyber:
+
+1)	The more drivers/rides there are in a city the lower the fare.   Lower driver/rides cities have a higher fare. 
+
+2)	The more rides per city type, the more drivers the city type has/needs. 
+
+3)	While Urban city type has the lowest fares, they have the highest percentage of total fares due to higher round count/drivers.  Rural has the highest fares, must has the lowest percent of fares due 
