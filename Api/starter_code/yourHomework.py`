@@ -1,0 +1,21 @@
+# Dependencies and Setup
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import requests
+import time
+import json
+
+# Import API key
+from api_keys import api_key
+
+# Incorporated citipy to determine city based on latitude and longitude
+from citipy import citipy
+
+# Output File (CSV)
+output_data_file = "output_data/cities.csv"
+
+
+# Range of latitudes and longitudes
+lat_range = (-90, 90)
+lng_range = (-180, 180)
